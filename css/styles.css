@@ -1,0 +1,11 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+}
