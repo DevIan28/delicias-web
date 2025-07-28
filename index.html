@@ -10,52 +10,110 @@
 <body>
 
   <!-- Header -->
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-light bg-light shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="assets/logo.png" alt="Logo" height="50" />
-        Delicias Doña Elvia
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/logo.png" alt="Logo" height="50" class="me-2" />
+        <strong>Delicias Doña Elvia</strong>
       </a>
     </div>
   </nav>
 
   <!-- Hero -->
-  <header class="bg-warning text-center text-white p-5">
-    <h1>¡Bienvenido a las delicias de Doña Elvia!</h1>
-    <p>Los panes más ricos de la ciudad</p>
+  <header class="bg-warning text-center text-white py-5">
+    <h1 class="display-5 fw-bold">¡Bienvenido a las delicias de Doña Elvia!</h1>
+    <p class="lead">Los panes más ricos de la ciudad, recién horneados con amor.</p>
   </header>
 
   <!-- Productos -->
   <section class="container my-5">
     <h2 class="text-center mb-4">Nuestros Productos</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Pan 1 -->
       <div class="col">
-        <div class="card h-100">
-          <img src="assets/productos/pan1.jpg" class="card-img-top" alt="Pan 1"/>
-          <div class="card-body">
-            <h5 class="card-title">Pan de queso</h5>
-            <p class="card-text">Suave, calientico y lleno de sabor.</p>
-          </div>
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan1" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan1.jpg" class="card-img-top" alt="Pan de queso"/>
+            <div class="card-body">
+              <h5 class="card-title">Pan de queso</h5>
+              <p class="card-text">Suave, calientico y lleno de sabor.</p>
+              <span class="badge bg-success">$2.500 COP</span>
+            </div>
+          </a>
         </div>
       </div>
+
+      <!-- Pan 2 -->
       <div class="col">
-        <div class="card h-100">
-          <img src="assets/productos/pan2.jpg" class="card-img-top" alt="Pan 2"/>
-          <div class="card-body">
-            <h5 class="card-title">Pandebono</h5>
-            <p class="card-text">Receta tradicional que enamora.</p>
-          </div>
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan2" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan2.jpg" class="card-img-top" alt="Pandebono"/>
+            <div class="card-body">
+              <h5 class="card-title">Pandebono</h5>
+              <p class="card-text">Receta tradicional que enamora.</p>
+              <span class="badge bg-success">$2.000 COP</span>
+            </div>
+          </a>
         </div>
       </div>
+
+      <!-- Pan 3 -->
       <div class="col">
-        <div class="card h-100">
-          <img src="assets/productos/pan3.jpg" class="card-img-top" alt="Pan 3"/>
-          <div class="card-body">
-            <h5 class="card-title">Pan integral</h5>
-            <p class="card-text">Saludable y delicioso.</p>
-          </div>
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan3" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan3.jpg" class="card-img-top" alt="Pan integral"/>
+            <div class="card-body">
+              <h5 class="card-title">Pan integral</h5>
+              <p class="card-text">Saludable y delicioso.</p>
+              <span class="badge bg-success">$2.800 COP</span>
+            </div>
+          </a>
         </div>
       </div>
+
+      <!-- Pan 4 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan4" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan4.jpg" class="card-img-top" alt="Pan hawaiano"/>
+            <div class="card-body">
+              <h5 class="card-title">Pan Hawaiano</h5>
+              <p class="card-text">Dulce con trozos de piña. Ideal para el café.</p>
+              <span class="badge bg-success">$3.000 COP</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Pan 5 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan5" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan5.jpg" class="card-img-top" alt="Pan de ajo"/>
+            <div class="card-body">
+              <h5 class="card-title">Pan de ajo</h5>
+              <p class="card-text">Perfecto para acompañar tus comidas favoritas.</p>
+              <span class="badge bg-success">$2.200 COP</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Pan 6 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <a href="detalle.html?id=pan6" class="text-decoration-none text-dark">
+            <img src="assets/productos/pan6.jpg" class="card-img-top" alt="Croissant"/>
+            <div class="card-body">
+              <h5 class="card-title">Croissant</h5>
+              <p class="card-text">Crujiente por fuera, suave por dentro. Un clásico francés.</p>
+              <span class="badge bg-success">$3.500 COP</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
     </div>
   </section>
 
